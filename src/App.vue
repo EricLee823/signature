@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <div id="ss" @click="s" style="margin-left:300px">
+    <div id="ss"
+         @click="s"
+         style="margin-left:300px">
       11111
     </div>
   </div>
@@ -11,7 +13,7 @@ import Signature from "./lib/index.js"
 
 export default {
   mounted () {
-
+    console.log(signature)
   },
   methods: {
     s () {
@@ -25,5 +27,4 @@ export default {
 </script>
 
 <style>
-
 </style>

@@ -81,5 +81,6 @@ function toast (text, time) {
 
 
 }
+window.Signature = Signature
 
 export default Signature
