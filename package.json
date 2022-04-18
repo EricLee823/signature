@@ -1,8 +1,8 @@
 {
-  "name": "signature",
+  "name": "signature-web",
   "version": "1.0.0",
   "description": "web签章",
-  "main": "dist/lm-menu-scroll.umd.min.js",
+  "main": "dist/signature.umd.min.js",
   "keyword": "signature",
   "private": false,
   "files": [
@@ -12,7 +12,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name lm-menu-scroll --dest dist src/lib/index.js"
+    "lib": "vue-cli-service build --target lib --name signature-web --dest dist src/lib/index.js"
 
   },
   "dependencies": {
